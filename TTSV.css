@@ -1,0 +1,22 @@
+.container{
+    width: 80%;
+    height: 100%;
+}
+
+.container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+.container .form-control{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.container button{
+    display: block;
+    margin: auto;
+}
