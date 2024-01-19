@@ -2,7 +2,7 @@
 <?php
 
 /* Nguyễn Thanh Tuấn và La Nguyễn Thành Nguyên  */
-header('Content-Type: text/html; charset=utf-8');
+
 
 $conn = mysqli_connect('localhost', 'root', '', 'ql_svtt') or die ('Lỗi kết nối'); mysqli_set_charset($conn, "utf8");
 
