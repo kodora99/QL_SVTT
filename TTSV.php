@@ -47,7 +47,7 @@
   
                 <div class="form-group">
                   <label for="">Số điện thoại</label>
-                  <input type="text" class="form-control" id="sodt" name="sodt">
+                  <input type="tel" class="form-control" id="sodt" name="sodt">
                 </div>
   
                 <div class="form-group">
@@ -78,11 +78,7 @@
                   <label for="">Khóa</label>
                   <input type="number" class="form-control" id="khoa" name="khoa" min="44" max="46">
                 </div>
-                <!-- NGUYỄN THANH PHÚ THÀNH đã bổ sung thêm -->
-                <div class="form-group">
-                    <label for="">Nhóm hướng dẫn</label>
-                    <input type="number" class="form-control" id="nhom" name="nhom" min="1" max="4">
-                </div>    
+                    
                 <!-- -->
                 <button type="submit" class="btn btn-primary" id="insert" name = "insert">LƯU THÔNG TIN</button>
                  
@@ -101,7 +97,7 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $dbname = "svtttn";
+  $dbname = "svtttn"; //Tên Database bạn đặt trên myPHPAdmin
   $conn = new mysqli($servername, $username, $password, $dbname);
   if ($conn->connect_error) {
     die("Connected Failed". $conn->connect_error);
@@ -122,10 +118,10 @@
     $truong = $_POST["truong"];
     $nganh = $_POST["nganh"];
     $khoa = $_POST["khoa"];
-    $nhom = $_POST["nhom"];
+    
     
 
-    $query = "INSERT INTO sinhvien VALUES ('','$masosv','$hoten','$gioitinh','$sodt','$email','$diachi','$malop','$truong','$nganh','$khoa','$nhom')";
+    $query = "INSERT INTO sinhvien VALUES ('','$masosv','$hoten','$gioitinh','$sodt','$email','$diachi','$malop','$truong','$nganh','$khoa')";
     mysqli_query($conn, $query);
     echo 
     "
