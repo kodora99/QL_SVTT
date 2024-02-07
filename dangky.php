@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="TTSV.css">
-
+<title>Đăng ký thực tập VNPT</title>
 <script>
 // Võ Khoa Trường Thọ và Nguyễn Bảo Việt
 function updateInfo() {
