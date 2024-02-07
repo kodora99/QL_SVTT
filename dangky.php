@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,9 +40,9 @@ Nhóm:
 
 Người hướng dẫn: <input type="text" id="NguoiHuongDan" name="NguoiHuongDan" value="" readonly>
 
-Mô Tả: </br> <textarea id="MoTa" name="MoTa" value="" style="width: 298px; height: 118px;" readonly>  </textarea></br>
-MSSV_HoTen nhóm trưởng: <input type="text" name="TenNhomTruong" value="" required/>
-Số lượng sinh viên: <input type="text" name="SoLuong" value="" required/>
+Mô Tả: </br> <textarea id="MoTa" name="MoTa" value="" style="width: 298px; height: 130px;" readonly>  </textarea></br>
+MSSV_HoTen: <input type="text" name="HoTen" value="" required/>
+
    <h3 style="color: green ">------------------------------------------------</h3>
 <input type="submit" name="dangky" value="Đăng Ký" style= "color :green"/>
 <?php require 'xuly.php';?>
