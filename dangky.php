@@ -24,7 +24,7 @@ function updateInfo() {
 
 <form method="post" action="dangky.php" class="form">
 
-<h2 style="color:green">Đăng ký nhóm thực tập</h2>
+<h2 style="color:green">Đăng ký thực tập</h2>
 
 Nhóm:  
 <select id="selectNhom" name="TenNhom" onchange="updateInfo()"   >
