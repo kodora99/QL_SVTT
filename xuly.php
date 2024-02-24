@@ -6,7 +6,6 @@ $errors = array();
 
 
 $conn = mysqli_connect('localhost', 'root', '', 'ql_svtt') or die ('Lỗi kết nối'); mysqli_set_charset($conn, "utf8");
-
 $errors = [];
 
 if (isset($_POST['dangky'])) {
